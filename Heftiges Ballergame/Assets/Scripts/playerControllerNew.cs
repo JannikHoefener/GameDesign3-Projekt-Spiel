@@ -6,23 +6,27 @@ using UnityEngine.InputSystem;
 
 public class playerControllerNew : MonoBehaviour
 {
+    
+    //Character Object references
     private Rigidbody playerRb;
     public GameObject character;
     public Actions animations;
 
-    //private PlayerControl controls;
+    //Movement variables
     private PlayerInput playerInput;
     private InputAction movement;
     private InputAction jumpAction;
-
+    //Movement directions
     private Vector2 moveDirection;
     private Vector3 targetDirection;
 
+    //Movement factors
     public int moveSpeed;
     public float rotationSpeed;
     public int jumpForce;
+    private int isWalking;
 
-    private bool hitGround;
+    private bool hitGround; //Limit fürs Jumpen
 
     private void Awake()
     {
@@ -45,24 +49,23 @@ public class playerControllerNew : MonoBehaviour
 
         jumpAction.performed += ctx2 => DoJump(ctx2);
         jumpAction.Enable();
-
-
-
     }
 
     
 
     public void OnMove(InputAction.CallbackContext ctx)
     {
-
         moveDirection= ctx.ReadValue<Vector2>();
         animations.Walk();
+        isWalking = 1;
+
         Debug.Log(targetDirection);
     }
     private void OnStopMove(InputAction.CallbackContext ctx)
     {
         moveDirection = ctx.ReadValue<Vector2>();
         animations.Stay();
+        isWalking = 0;
     }
 
     public void DoJump(InputAction.CallbackContext ctx)
@@ -78,9 +81,9 @@ public class playerControllerNew : MonoBehaviour
     private void Move(Vector2 moveDirection)
     {
         targetDirection = new Vector3(moveDirection.x, 0, moveDirection.y);
-        transform.Translate(targetDirection * moveSpeed * Time.deltaTime);
-
         RotateToDirection(targetDirection);
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime * isWalking);
+        
     }
 
     private void RotateToDirection(Vector3 targetDirection)
