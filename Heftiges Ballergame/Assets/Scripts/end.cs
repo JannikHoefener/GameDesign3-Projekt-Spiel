@@ -19,7 +19,7 @@ public class end : MonoBehaviour
 
         score += (int)(GameStatistics.Instance.TimeRemaining) * 1;      // Each Second left    +  1 Points
         score += GameStatistics.Instance.Pakete * 500;                  // Each saved Paket    +500 Points
-        if (GameStatistics.Instance.inHand) { score += 100; };           // Each Paket in Hand  +100 Points
+        if (GameStatistics.Instance.inHand) { score += 100; };          // Each Paket in Hand  +100 Points
 
         DisplayScore(score);
 
