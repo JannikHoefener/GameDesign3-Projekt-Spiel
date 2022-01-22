@@ -34,6 +34,7 @@ public class gameui : MonoBehaviour
             else 
             {
                 Debug.Log("Time ran out.");
+                
                 timeRemaining = 0;
                 timerIsRunning = false;
             }
