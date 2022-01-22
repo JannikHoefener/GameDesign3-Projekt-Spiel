@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class itemRotation : MonoBehaviour
+public class Rotate_Item : MonoBehaviour
 {
-    public int rotationStep = 1;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +13,9 @@ public class itemRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // rotates x degrees per second around y axis
-        transform.Rotate (0,rotationStep * Time.deltaTime,0);
+    
+        transform.rotation = Quaternion.AngleAxis(90, Vector3.up);
+
+        transform.Rotate(0, 0, 20 * Time.deltaTime); //rotates 50 degrees per second around z axis
     }
 }
