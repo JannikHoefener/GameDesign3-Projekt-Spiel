@@ -26,7 +26,7 @@ public class playerControllerNew : MonoBehaviour
     public int jumpForce;
     private int isWalking;
 
-    private bool hitGround; //Limit fürs Jumpen
+    private bool hitGround; //Limit fï¿½rs Jumpen
 
     private void Awake()
     {
