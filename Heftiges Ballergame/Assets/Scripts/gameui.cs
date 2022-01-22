@@ -26,6 +26,8 @@ public class gameui : MonoBehaviour
     {
         if (timerIsRunning)
         {
+            GameStatistics.Instance.TimeRemaining = timeRemaining;
+
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
@@ -34,24 +36,12 @@ public class gameui : MonoBehaviour
             else 
             {
                 Debug.Log("Time ran out.");
-                
-                timeRemaining = 0;
+                GameStatistics.Instance.EndReason = 1;          // Tell the end screen the reason
+                GameStatistics.Instance.TimeRemaining = 0;
                 timerIsRunning = false;
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
             }
-        }    
-        // Sekunden in der Laufzeit ueber DeltaTime
-        //timer += Time.deltaTime;
-        //int seconds = (int)(timer % 60);
-
-        // Spielzeit abgelaufen -> Game Over
-        //if (seconds == timelimit)
-        /*{
-            gameRunning = false; // Spiel gestoppt
-        }
-        while (gameRunning) 
-        {
-            setTime(timelimit-seconds);
-        }*/
+        } 
     }
 
     void setScore(int points)

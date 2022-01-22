@@ -13,9 +13,9 @@ public class GameStatistics
         }
     }
     
-    public int TimeRemaining {get; set; }
+    public float TimeRemaining {get; set; }
     public int Score {get; set; }
     public int Pakete {get; set; } // how much pakete secured
-    public int inHand {get; set; } // how much pakete in hand
+    public bool inHand {get; set; } // how much pakete in hand
     public int EndReason {get; set; } // why the game ended
 }
