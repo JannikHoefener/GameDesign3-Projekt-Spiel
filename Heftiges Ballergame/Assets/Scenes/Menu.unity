@@ -1127,7 +1127,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
   m_Text: "Soeren Helms, 2359614\nJannik Hoefener, 2574970\nMaurice Peplinski, 2587916\nLuis
-    Strotk\xF6tter, 2571685\nLukas Pohler, xxxxxxx"
+    Strotk\xF6tter, 2571685\nLukas Pohler, 2577140"
 --- !u!222 &889175718
 CanvasRenderer:
   m_ObjectHideFlags: 0
