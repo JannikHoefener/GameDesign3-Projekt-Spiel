@@ -23,7 +23,6 @@ public class end : MonoBehaviour
         if (GameStatistics.Instance.inHand) { score += 100; };          // Each Paket in Hand  +100 Points
 
         DisplayScore(score);
-
         DisplayDetail(((int)(GameStatistics.Instance.TimeRemaining) * 1), (GameStatistics.Instance.Pakete * 500));
 
         // Decide which screen has to be shown
@@ -43,6 +42,9 @@ public class end : MonoBehaviour
                 Debug.Log("Endscreen: Choosed Enemy Screen.");
                 break;
         }
+
+        // Last Step: Clean Up Variables!
+        CleanUp();
     }
 
     public void TimeRanOutShow()
@@ -80,5 +82,15 @@ public class end : MonoBehaviour
     public void DisplayDetail(int pointsTime, int pointsPackets)
     {
         ScoreDetail.text = string.Format("Points for Time Left: {0:0000} \nPoints for Packets collected: {1:0000} \n", pointsTime, pointsPackets);
+    }
+
+    public void CleanUp()
+    {
+        GameStatistics.Instance.TimeRemaining = 10.0f;
+        GameStatistics.Instance.Score = 0;
+        GameStatistics.Instance.Pakete = 0;
+        GameStatistics.Instance.Goal = 10;
+        GameStatistics.Instance.inHand = false;
+        GameStatistics.Instance.EndReason = 0;
     }
 }

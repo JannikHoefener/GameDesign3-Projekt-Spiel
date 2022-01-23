@@ -8,6 +8,7 @@ TagManager:
   - PowerUp
   - Collectable
   - Dropzone
+  - GuardFlashlight
   layers:
   - Default
   - TransparentFX
