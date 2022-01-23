@@ -59,7 +59,7 @@ public class playerControllerNew : MonoBehaviour
         animations.Walk();
         isWalking = 1;
 
-        Debug.Log(targetDirection);
+        //Debug.Log(targetDirection);
     }
     private void OnStopMove(InputAction.CallbackContext ctx)
     {
@@ -93,12 +93,19 @@ public class playerControllerNew : MonoBehaviour
         transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, rotationSpeed);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             hitGround = true;
         }
+        else
+        {
+            animations.Walk();
+            isWalking = 0;
+            Debug.Log(collision.gameObject);
+        }
+
     }
 
     private void OnDisable()
@@ -110,8 +117,9 @@ public class playerControllerNew : MonoBehaviour
     private void Update()
     {
         //String test = controls.Player.Move.ToString();
-        //Debug.Log(test);
+        //Debug.Log(test)
 
-        Move(moveDirection);   
+        Move(moveDirection);
+;   
     }
 }

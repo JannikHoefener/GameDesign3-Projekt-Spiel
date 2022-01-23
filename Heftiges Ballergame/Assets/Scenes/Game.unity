@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -515,6 +519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palett
       objectReference: {fileID: 0}
+    - target: {fileID: 731801658567534323, guid: 94e99d8cf11897f4587b0567695c949d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94e99d8cf11897f4587b0567695c949d, type: 3}
 --- !u!4 &8563801 stripped
@@ -783,6 +791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 98
@@ -870,6 +882,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -1010,6 +1026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1140,6 +1160,10 @@ PrefabInstance:
     - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
@@ -1272,6 +1296,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -1427,6 +1455,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4358027654480454338, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -1555,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -1702,8 +1738,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.009196022, y: 0.017352508, z: 0.006505601}
-  m_Center: {x: -0.0000750702, y: 0.008913315, z: -0.0017726605}
+  m_Size: {x: 0.06715185, y: 0.017352508, z: 0.0065056006}
+  m_Center: {x: -0.029053038, y: 0.008913315, z: -0.0017726606}
 --- !u!4 &45699388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b37603f8ea8ba83489df2180bfd8eef2, type: 3}
@@ -2140,6 +2176,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -2861,6 +2901,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 2.435095
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.52745426
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!1001 &74613993
@@ -3090,6 +3138,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -3342,6 +3394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3547,6 +3603,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.x
+      value: 4.2038164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.85575306
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.z
+      value: 1.4063674
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.x
+      value: 0.5319066
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.y
+      value: -0.38100085
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.z
+      value: -0.45318317
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
 --- !u!1 &111975926 stripped
@@ -3565,8 +3645,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.004074202, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 0.9657377, y: 2.5500004, z: 2.9622517}
+  m_Center: {x: 0.061942816, y: 1.2750169, z: -0.3469597}
 --- !u!1 &113195428 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 136328, guid: 613b4cc8c589ad8458e792ae21891bef, type: 3}
@@ -3709,6 +3789,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7791aa6beaaa15148b5287a0538526d5, type: 3}
+--- !u!1 &117506343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4262063839578767207, guid: ab45847888048b84a94d230f24f99991, type: 3}
+  m_PrefabInstance: {fileID: 122742722}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &117506347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117506343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.2157516, y: 7.667002, z: 8.428539}
+  m_Center: {x: -3.123405e-14, y: 4.2373266, z: -2.1978967}
 --- !u!4 &118216613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
@@ -3799,6 +3897,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -3972,6 +4074,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2132753041}
     m_Modifications:
+    - target: {fileID: 2730479943844168481, guid: ab45847888048b84a94d230f24f99991, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3489784861606110685, guid: ab45847888048b84a94d230f24f99991, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -4179,6 +4285,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: -6545764530478915430, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -4226,6 +4336,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
       propertyPath: m_Name
       value: Flowers (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 425286110574608038, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961056305463712465, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
@@ -4288,6 +4406,14 @@ PrefabInstance:
     - target: {fileID: 4063334258460450, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 0.9253218
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: -0.110777736
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
@@ -4406,6 +4532,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -5661,6 +5791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -5715,6 +5849,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+--- !u!1 &196052249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 169152, guid: 705d933b89ad2d94a8a505a85bc0a4fd, type: 3}
+  m_PrefabInstance: {fileID: 1326134200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &196052253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196052249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0959889, y: 1.9228579, z: 1.2501135}
+  m_Center: {x: -0.32157344, y: 0.5791716, z: 0.3466549}
 --- !u!1001 &197376033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5725,6 +5877,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -5923,6 +6079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -5992,6 +6152,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -6192,6 +6356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -6383,6 +6551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -6463,8 +6635,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.00919602, y: 0.017352508, z: 0.0065055997}
-  m_Center: {x: -0.00007507019, y: 0.008913315, z: -0.0017726601}
+  m_Size: {x: 0.019532308, y: 0.017352508, z: 0.007775792}
+  m_Center: {x: -0.005243216, y: 0.008913315, z: -0.0024077564}
 --- !u!4 &225398837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b37603f8ea8ba83489df2180bfd8eef2, type: 3}
@@ -7025,6 +7197,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 0.90094686
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: -0.098590255
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!1001 &240214428
@@ -7037,6 +7217,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -7146,6 +7330,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7960275
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.4142838
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.39801317
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: 0.08214152
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -7296,6 +7496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -7360,6 +7564,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -7651,6 +7859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -7760,8 +7972,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6450158, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+    - target: {fileID: 6450158, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
 --- !u!4 &258768276 stripped
 Transform:
@@ -7952,6 +8167,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7468096
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 2.7954545
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.3734042
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.22727323
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!1001 &266617608
@@ -8082,6 +8313,14 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.8528461
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: 0.00934124
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -8685,6 +8924,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5977549091374805509, guid: dd1832de68cba8f48960216dac3c4f3e, type: 3}
   m_PrefabInstance: {fileID: 286053481}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &286253816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 169152, guid: 705d933b89ad2d94a8a505a85bc0a4fd, type: 3}
+  m_PrefabInstance: {fileID: 904153871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &286253820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286253816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6404301, y: 2.2816007, z: 0.7399266}
+  m_Center: {x: -0.09379405, y: 0.7585429, z: -0.08614439}
 --- !u!1001 &286654826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8695,6 +8952,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -8904,6 +9165,10 @@ PrefabInstance:
     - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
@@ -9141,6 +9406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -9234,6 +9503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -9309,6 +9582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -9373,6 +9650,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -9551,6 +9832,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -9844,6 +10129,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2349476, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450158, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
 --- !u!1001 &325404057
@@ -10039,6 +10332,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428934, guid: 016291d4f25026846b760aa140d85aa1, type: 3}
   m_PrefabInstance: {fileID: 328381468}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &329845140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194808, guid: 4af2e69a3f0348b44a982423be88c83d, type: 3}
+  m_PrefabInstance: {fileID: 1541395953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &329845144
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329845140}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5881971, y: 2.0111237, z: 0.7691319}
+  m_Center: {x: -0.0010842681, y: 0.7509744, z: 0.0034741461}
 --- !u!1001 &334269690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10495,6 +10806,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 1.124715
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: 0.21047443
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!1001 &349284134
@@ -10817,8 +11136,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.007290939, y: 0.007239683, z: 0.010105006}
-  m_Center: {x: 0.00016461138, y: 0.0028195595, z: -0.0019585674}
+  m_Size: {x: 0.049871903, y: 0.0072396826, z: 0.010105006}
+  m_Center: {x: -0.02112588, y: 0.0028195595, z: -0.0019585674}
 --- !u!4 &360976231 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f1da24e6f87f419458e1913c5a2fe03b, type: 3}
@@ -11267,6 +11586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -11496,8 +11819,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.00919602, y: 0.017352508, z: 0.0065055997}
-  m_Center: {x: -0.00007507019, y: 0.008913315, z: -0.0017726601}
+  m_Size: {x: 0.08768916, y: 0.017352508, z: 0.0072946358}
+  m_Center: {x: -0.009605946, y: 0.008913314, z: -0.002167179}
 --- !u!4 &379004099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b37603f8ea8ba83489df2180bfd8eef2, type: 3}
@@ -12015,8 +12338,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8500004, y: 2.5500004, z: 2.2800012}
-  m_Center: {x: 0.004074201, y: 1.2750169, z: -0.00583452}
+  m_Size: {x: 0.90673554, y: 2.5500004, z: 2.631697}
+  m_Center: {x: -0.024293363, y: 1.2750169, z: -0.18168247}
 --- !u!1001 &394246998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12027,6 +12350,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -12255,6 +12582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -12406,6 +12737,24 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &402754583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 136706, guid: 68e540a3efa72554cad20028e9747fe1, type: 3}
+  m_PrefabInstance: {fileID: 197819797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &402754587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402754583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4080044, y: 1.9355259, z: 0.5875264}
+  m_Center: {x: -0.0015219003, y: 0.7997427, z: -8.903976e-16}
 --- !u!1001 &403617227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12416,6 +12765,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -12564,6 +12917,24 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &408104534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 136706, guid: 68e540a3efa72554cad20028e9747fe1, type: 3}
+  m_PrefabInstance: {fileID: 2123949086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &408104538
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408104534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.8019142, y: 2.57402, z: 0.8420924}
+  m_Center: {x: -0.1845913, y: 0.4562685, z: -0.12728304}
 --- !u!1001 &412794826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12777,6 +13148,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -13505,6 +13880,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 1.832222
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.24999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.9161109
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!4 &439394985 stripped
@@ -13567,6 +13954,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plants (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1555261917628800792, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118868201508617165, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381485397932151181, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
 --- !u!4 &439751906 stripped
@@ -13628,6 +14027,18 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
       propertyPath: m_Name
       value: Plants (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555261917628800792, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118868201508617165, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381485397932151181, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
@@ -13737,6 +14148,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0058403
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.2521083
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.45145035
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: 0.0010537675
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -14118,6 +14545,24 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6450158, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+--- !u!1 &453192472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127466, guid: 164922da0c45e13499cbb9c0d181acf4, type: 3}
+  m_PrefabInstance: {fileID: 716597721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &453192476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453192472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0785725, y: 2.2864058, z: 0.7381486}
+  m_Center: {x: -0.0019896626, y: 0.6443547, z: 0.07450116}
 --- !u!1001 &454084641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14185,6 +14630,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -14327,7 +14776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442080, guid: 5dd25028b7dd39f46bf998a8c618ea6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -70.356026
+      value: -70.43793
       objectReference: {fileID: 0}
     - target: {fileID: 442080, guid: 5dd25028b7dd39f46bf998a8c618ea6e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14419,6 +14868,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plants (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1555261917628800792, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118868201508617165, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381485397932151181, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
 --- !u!4 &462424533 stripped
@@ -14436,6 +14897,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -14556,6 +15021,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6450158, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
 --- !u!1001 &467447058
@@ -14630,6 +15099,10 @@ PrefabInstance:
     - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
@@ -14749,6 +15222,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6425241
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 2.0844297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.3212615
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.5827854
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!4 &468731069 stripped
@@ -14766,6 +15255,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -15589,6 +16082,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -16419,6 +16916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -16587,6 +17088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -16651,6 +17156,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -17055,6 +17564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -17318,6 +17831,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4454337665928173865, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703040221364307242, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
       propertyPath: m_Name
       value: Plant 2
@@ -17713,6 +18230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -17998,8 +18519,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020894771, y: 0.023179727, z: 0.026636982}
-  m_Center: {x: 0, y: -0.000947591, z: 0.0030539585}
+  m_Size: {x: 0.1693559, y: 0.035396483, z: 0.026636982}
+  m_Center: {x: -0.06677358, y: 0.005160759, z: 0.0030539583}
 --- !u!4 &573891703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a4e254c0b0d9214ea7b53f9c0c43b10, type: 3}
@@ -18452,6 +18973,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4454337665928173865, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703040221364307242, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
       propertyPath: m_Name
       value: Plant 2 (2)
@@ -18714,6 +19239,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4358027654480454338, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -19092,6 +19621,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5317007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 2.303135
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.2341502
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.62470436
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!1001 &604833573
@@ -19226,68 +19771,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4480815832082898, guid: 9a80f1159de6c8249a43aee2815a177d, type: 3}
   m_PrefabInstance: {fileID: 608152721}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &609152760
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1870125413}
-    m_Modifications:
-    - target: {fileID: 152222, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_Name
-      value: Storage_Rack_02 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.9699993
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.1073761
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
---- !u!4 &609152761 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
-  m_PrefabInstance: {fileID: 609152760}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &609758174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19368,6 +19851,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -19504,6 +19991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -19563,6 +20054,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
   m_PrefabInstance: {fileID: 612788269}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &615373845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 136706, guid: 01d0598bc959e1744a433317fbb1b0c7, type: 3}
+  m_PrefabInstance: {fileID: 1243180262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &615373849
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615373845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4080044, y: 2.154929, z: 0.5875264}
+  m_Center: {x: -0.0015219003, y: 0.9094442, z: 2.4202315e-16}
 --- !u!1001 &616661647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19573,6 +20082,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -20205,6 +20718,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4454337665928173865, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703040221364307242, guid: 30cd4b8a989daaa4fbb273ee70bf99f6, type: 3}
       propertyPath: m_Name
       value: Plant 2 (1)
@@ -20402,6 +20919,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3076980170538372957, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3651780147334738662, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4028192324028746158, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
@@ -20661,7 +21182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402442, guid: 3732512b24557ac43933b8085c822b18, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.89
+      value: -10.971906
       objectReference: {fileID: 0}
     - target: {fileID: 402442, guid: 3732512b24557ac43933b8085c822b18, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21913,6 +22434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 101
@@ -21977,6 +22502,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -22244,6 +22773,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -22898,6 +23431,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 405966, guid: c7bcf19bbfa57ed4ea9147dff66d5542, type: 3}
   m_PrefabInstance: {fileID: 695973623}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &696948491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127466, guid: 164922da0c45e13499cbb9c0d181acf4, type: 3}
+  m_PrefabInstance: {fileID: 1330506761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &696948495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696948491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2695678, y: 1.9148341, z: 0.8248105}
+  m_Center: {x: -0.09748697, y: 0.458569, z: 0.117832094}
 --- !u!1 &697021969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7791aa6beaaa15148b5287a0538526d5, type: 3}
@@ -22989,6 +23540,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0345751
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.2456656
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.51728696
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.002166929
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -23254,8 +23821,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8500005, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.0040742015, y: 1.2750169, z: -0.005835475}
+  m_Size: {x: 1.0144869, y: 2.5500004, z: 8.080767}
+  m_Center: {x: -0.010962789, y: 1.2750169, z: 2.894548}
 --- !u!4 &707387797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
@@ -23271,6 +23838,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -23550,8 +24121,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.000001, y: 4.089268, z: 2.5068252}
-  m_Center: {x: -0.005837561, y: 2.0619395, z: 0.21266066}
+  m_Size: {x: 6.2919626, y: 4.089268, z: 2.5068252}
+  m_Center: {x: -2.151844, y: 2.0619395, z: 0.21266067}
 --- !u!4 &714690182 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4894888574715686, guid: f5dd4fd195b5d7e4199ebf387a239db6, type: 3}
@@ -23865,6 +24436,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -24200,6 +24775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -24400,6 +24979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -24464,6 +25047,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -24637,6 +25224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -24701,6 +25292,10 @@ PrefabInstance:
     - target: {fileID: 1799145172504711529, guid: 18af26af61ee8234caa44dc89f89d5cf, type: 3}
       propertyPath: m_Name
       value: Mushroom 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644307588585385336, guid: 18af26af61ee8234caa44dc89f89d5cf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4262527595393066397, guid: 18af26af61ee8234caa44dc89f89d5cf, type: 3}
       propertyPath: m_RootOrder
@@ -24923,6 +25518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -24987,6 +25586,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -25354,6 +25957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -25613,6 +26220,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -26356,6 +26967,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plants (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1555261917628800792, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118868201508617165, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381485397932151181, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
 --- !u!4 &791731993 stripped
@@ -26788,6 +27411,10 @@ PrefabInstance:
     - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
@@ -27235,6 +27862,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 455826, guid: 52286bfe87fb66749a3c50bd33f61eb6, type: 3}
   m_PrefabInstance: {fileID: 807234225}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &808164112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 129434, guid: 0f950e9a8a9dd2f469026a5b5e908c65, type: 3}
+  m_PrefabInstance: {fileID: 1731914608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &808164116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808164112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79561996, y: 2.1187277, z: 1.271896}
+  m_Center: {x: 0.14567757, y: 0.79336405, z: 0.42373914}
 --- !u!1001 &808190854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27466,6 +28111,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b37603f8ea8ba83489df2180bfd8eef2, type: 3}
+--- !u!1 &822643602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 163552, guid: 5dd25028b7dd39f46bf998a8c618ea6e, type: 3}
+  m_PrefabInstance: {fileID: 126985196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &822643606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822643602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5304057, y: 2.2645288, z: 0.7752084}
+  m_Center: {x: 0.00026255846, y: 0.8646929, z: 0.00000047683716}
 --- !u!1001 &823746781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27594,6 +28257,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 417386, guid: 164922da0c45e13499cbb9c0d181acf4, type: 3}
   m_PrefabInstance: {fileID: 824420230}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &825914985 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127466, guid: 164922da0c45e13499cbb9c0d181acf4, type: 3}
+  m_PrefabInstance: {fileID: 824420230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &825914989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825914985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3307973, y: 2.202369, z: 0.59904695}
+  m_Center: {x: -0.12810284, y: 0.6023363, z: -0.011632204}
 --- !u!1001 &826876414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27607,7 +28288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 155075078908560349, guid: 03129de0bceaad4418f7f0375b4b3c38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.908684
+      value: 46.996372
       objectReference: {fileID: 0}
     - target: {fileID: 155075078908560349, guid: 03129de0bceaad4418f7f0375b4b3c38, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27615,7 +28296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 155075078908560349, guid: 03129de0bceaad4418f7f0375b4b3c38, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.448063
+      value: 37.636948
       objectReference: {fileID: 0}
     - target: {fileID: 155075078908560349, guid: 03129de0bceaad4418f7f0375b4b3c38, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28204,6 +28885,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 478606, guid: a9cc5585b9634a9449920c03ec6bc243, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 478606, guid: a9cc5585b9634a9449920c03ec6bc243, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.8898392
       objectReference: {fileID: 0}
@@ -28451,6 +29136,18 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
       propertyPath: m_Name
       value: Plants (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555261917628800792, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4118868201508617165, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8381485397932151181, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4845ea01e8a9f4fb204f6027315675, type: 3}
@@ -28823,8 +29520,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.004074202, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.5461614}
+  m_Center: {x: 0.004074216, y: 1.2750169, z: 0.12724537}
 --- !u!1001 &874498958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29067,6 +29764,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -29384,6 +30085,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8483133351965048134, guid: f550c80a288252347bddcb7465dc52df, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f550c80a288252347bddcb7465dc52df, type: 3}
 --- !u!4 &885395381 stripped
@@ -29670,6 +30375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -29885,6 +30594,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -30822,6 +31535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -30997,6 +31714,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushrooms
       objectReference: {fileID: 0}
+    - target: {fileID: 626598550611399491, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376781743406077681, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845683846494352213, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c43f8078a174987439a67ccaab3be883, type: 3}
 --- !u!4 &919774822 stripped
@@ -31158,6 +31887,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -31928,6 +32661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -32186,6 +32923,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3529263316264705873, guid: e282280263592284b8c7c955e3517805, type: 3}
   m_PrefabInstance: {fileID: 948385743}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &948714145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 192948, guid: 393666a36512b694893fb4b95c67c386, type: 3}
+  m_PrefabInstance: {fileID: 412873306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &948714149
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948714145}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4244178, y: 1.934417, z: 0.4244178}
+  m_Center: {x: 0, y: 0.7847086, z: 9.8633175e-17}
 --- !u!4 &950271699 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4319980111772158, guid: 162afb80391ab99488833ef7d4b18b99, type: 3}
@@ -33649,6 +34404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -33703,6 +34462,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+--- !u!1 &992299963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194808, guid: 4af2e69a3f0348b44a982423be88c83d, type: 3}
+  m_PrefabInstance: {fileID: 1623491302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &992299967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992299963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1197736, y: 2.8331199, z: 2.5136056}
+  m_Center: {x: -0.7668725, y: 1.161973, z: -0.21347547}
 --- !u!1001 &995690008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34070,6 +34847,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -34489,6 +35270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -34624,6 +35409,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -34939,8 +35728,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.00919602, y: 0.017352508, z: 0.0065055997}
-  m_Center: {x: -0.00007507019, y: 0.008913315, z: -0.0017726601}
+  m_Size: {x: 0.032078646, y: 0.017352508, z: 0.008985251}
+  m_Center: {x: -0.011516389, y: 0.008913315, z: -0.003012486}
 --- !u!4 &1035347321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b37603f8ea8ba83489df2180bfd8eef2, type: 3}
@@ -35242,6 +36031,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -35584,6 +36377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -35754,6 +36551,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3076980170538372957, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3651780147334738662, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4028192324028746158, guid: f9ba43b4d4d826f47aa990da47cf55a1, type: 3}
@@ -36045,6 +36846,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: -5967091090027457007, guid: 95cc45b7a6c86ed4daa4a2e32f6a0e5e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5066425844996990394, guid: 95cc45b7a6c86ed4daa4a2e32f6a0e5e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 95cc45b7a6c86ed4daa4a2e32f6a0e5e, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -36092,6 +36901,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 95cc45b7a6c86ed4daa4a2e32f6a0e5e, type: 3}
       propertyPath: m_Name
       value: Branches
+      objectReference: {fileID: 0}
+    - target: {fileID: 1652661056920855774, guid: 95cc45b7a6c86ed4daa4a2e32f6a0e5e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95cc45b7a6c86ed4daa4a2e32f6a0e5e, type: 3}
@@ -36240,6 +37053,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 475310, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
   m_PrefabInstance: {fileID: 945952183}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1079782921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 169152, guid: 705d933b89ad2d94a8a505a85bc0a4fd, type: 3}
+  m_PrefabInstance: {fileID: 618802735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1079782925
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079782921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.71811616, y: 2.130275, z: 0.5622208}
+  m_Center: {x: 0.12354499, y: 0.68288004, z: 0.0027084947}
 --- !u!1001 &1079888245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36727,6 +37558,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 486008, guid: 4af2e69a3f0348b44a982423be88c83d, type: 3}
   m_PrefabInstance: {fileID: 1095695895}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1096723233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 152222, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+  m_PrefabInstance: {fileID: 464682804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1096723237
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096723233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.95970964, y: 2.5500004, z: 2.8798962}
+  m_Center: {x: -0.050780416, y: 1.2750169, z: -0.042251587}
 --- !u!1001 &1096960602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36923,6 +37772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -36993,8 +37846,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0000012, y: 4.0892687, z: 2.5068254}
-  m_Center: {x: -0.0058375616, y: 2.0619397, z: 0.21266069}
+  m_Size: {x: 4.168193, y: 4.0892687, z: 2.843089}
+  m_Center: {x: -1.0899326, y: 2.0619395, z: 0.044528626}
 --- !u!4 &1108518378 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4414094573622968, guid: 7ba3b11bb1f496949b2652ba87fab94f, type: 3}
@@ -37770,8 +38623,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7602113, y: 1.626692, z: 2.5701973}
-  m_Center: {x: -0.03882063, y: 0.83651507, z: -0.00000005960466}
+  m_Size: {x: 2.5751886, y: 1.626692, z: 2.7140555}
+  m_Center: {x: -0.44631425, y: 0.83651507, z: 0.00038049673}
 --- !u!4 &1131991942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4741428185357256, guid: 40996329c0265e6419f5b09a6602aa39, type: 3}
@@ -37844,6 +38697,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -38329,6 +39186,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5265464
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.55421627
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.x
+      value: 0.003975189
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.y
+      value: -0.230233
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.z
+      value: -2.9544536e-17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
 --- !u!1001 &1147038135
@@ -38412,6 +39289,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 5648c7aa655120f44aab862e4a038f3c, type: 3}
+--- !u!1 &1148676699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 112082, guid: 016291d4f25026846b760aa140d85aa1, type: 3}
+  m_PrefabInstance: {fileID: 328381468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1148676703
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148676699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.256279, y: 2.3886402, z: 0.71270657}
+  m_Center: {x: 0.037082672, y: 0.7588221, z: -0.047549248}
 --- !u!4 &1150134497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
@@ -38719,6 +39614,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -39384,6 +40283,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 1.6696254
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: 0.48292965
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!1001 &1197096201
@@ -39466,6 +40373,10 @@ PrefabInstance:
     - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
@@ -39881,6 +40792,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 1.0124017
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: 0.1543178
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!4 &1215750738 stripped
@@ -40108,6 +41027,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4967473
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5643471
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.x
+      value: 1.4277931e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.y
+      value: -0.20149861
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.z
+      value: -0.012759656
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
 --- !u!1001 &1222493476
@@ -40274,6 +41217,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4926591831143164, guid: dad5ac76e863a834aa3d74b266e53f15, type: 3}
   m_PrefabInstance: {fileID: 1223665806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1223920949 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127466, guid: 164922da0c45e13499cbb9c0d181acf4, type: 3}
+  m_PrefabInstance: {fileID: 1096960602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1223920953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223920949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6801898, y: 1.9961379, z: 0.607407}
+  m_Center: {x: -0.30279964, y: 0.49922097, z: 0.009128392}
 --- !u!1001 &1228796305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41230,6 +42191,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0247004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 1.0325234
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.x
+      value: 0.16046703
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: -0.16437852
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!1001 &1271293137
@@ -41446,6 +42423,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -42349,8 +43330,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5139546
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5548243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0023809168
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.y
+      value: -0.23053695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.z
+      value: -2.6830589e-17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+--- !u!1 &1303519609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 152222, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+  m_PrefabInstance: {fileID: 324041988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1303519613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303519609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.98837626, y: 2.5500004, z: 7.8062344}
+  m_Center: {x: 0.073262095, y: 1.2750169, z: 2.0558033}
 --- !u!1001 &1304300885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42987,6 +44006,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5541777
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.5425775
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.22291169
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: 0.14628851
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!1001 &1314596278
@@ -43047,6 +44082,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5169216
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 5.307092
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.24153975
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: 0.66177493
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -43495,8 +44546,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0000007, y: 4.0892687, z: 2.5068247}
-  m_Center: {x: -0.00583756, y: 2.0619397, z: 0.21266064}
+  m_Size: {x: 2.1487713, y: 4.0892687, z: 8.989863}
+  m_Center: {x: -0.055464417, y: 2.0619395, z: -3.0288696}
 --- !u!4 &1330838203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4992243006890794, guid: 01ef96d836105ae45a250c3d2d0ddc14, type: 3}
@@ -43788,6 +44839,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -44511,6 +45566,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.x
+      value: 2.1444066
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8466282
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Size.z
+      value: 1.3593954
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.x
+      value: 0.32220316
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.y
+      value: -0.37643906
+      objectReference: {fileID: 0}
+    - target: {fileID: 7288395777305780034, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
+      propertyPath: m_Center.z
+      value: -0.42969713
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8531c0160b625746812ddd8f8a3f1cf, type: 3}
 --- !u!1001 &1356882267
@@ -44587,6 +45666,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 423888, guid: d537224908c5f444f86c9e57e0c7234c, type: 3}
   m_PrefabInstance: {fileID: 1356882267}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1359213884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4262063839578767207, guid: ab45847888048b84a94d230f24f99991, type: 3}
+  m_PrefabInstance: {fileID: 1175291061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1359213888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359213884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.5567865, y: 7.667002, z: 10.2393265}
+  m_Center: {x: -0.17052683, y: 4.2373343, z: -1.2924997}
 --- !u!1 &1363295514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 151190, guid: a9cc5585b9634a9449920c03ec6bc243, type: 3}
@@ -44789,7 +45886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.407901
+      value: -5.5939264
       objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45202,6 +46299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -45318,6 +46419,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 455826, guid: 68e540a3efa72554cad20028e9747fe1, type: 3}
   m_PrefabInstance: {fileID: 1392623657}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1392690225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194808, guid: 4af2e69a3f0348b44a982423be88c83d, type: 3}
+  m_PrefabInstance: {fileID: 553981598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1392690229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392690225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5881971, y: 2.3674717, z: 0.7691319}
+  m_Center: {x: -0.0010842681, y: 0.92914844, z: 0.0034741461}
 --- !u!4 &1393739578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -45406,6 +46525,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: -6545764530478915430, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -45453,6 +46576,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
       propertyPath: m_Name
       value: Flowers
+      objectReference: {fileID: 0}
+    - target: {fileID: 425286110574608038, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961056305463712465, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
@@ -45622,6 +46753,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -46218,6 +47353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -46282,6 +47421,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -46461,6 +47604,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -46806,6 +47953,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5346235
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.0323167
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.23268878
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.1088414
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -47256,6 +48419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -47411,8 +48578,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.0040746317, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 1.0149617, y: 2.9966147, z: 6.4775043}
+  m_Center: {x: 0.034910202, y: 1.0517098, z: -1.687655}
 --- !u!1001 &1445979171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47982,6 +49149,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4358027654480454338, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -48115,6 +49286,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushrooms (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 626598550611399491, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376781743406077681, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845683846494352213, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c43f8078a174987439a67ccaab3be883, type: 3}
 --- !u!4 &1466540510 stripped
@@ -48214,6 +49397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4358027654480454338, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -48323,6 +49510,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0051676
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 1.7248422
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.5025832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.862421
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -48455,6 +49658,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9993769
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.2908983
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.49968785
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -1.6454492
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
 --- !u!1001 &1488278519
@@ -48511,6 +49730,14 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 1.7466375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: -0.8733186
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -49291,6 +50518,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 1.1424458
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: -0.21933973
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!4 &1510289653 stripped
@@ -49357,6 +50592,22 @@ PrefabInstance:
     - target: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0704352
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Size.z
+      value: 3.323494
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.x
+      value: -0.535217
+      objectReference: {fileID: 0}
+    - target: {fileID: 3458181502029012968, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+      propertyPath: m_Center.z
+      value: 0.014333725
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
@@ -49676,7 +50927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442080, guid: bf8363b0ff810d34eb188506e160156d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -70.345085
+      value: -70.42699
       objectReference: {fileID: 0}
     - target: {fileID: 442080, guid: bf8363b0ff810d34eb188506e160156d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50489,6 +51740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -50759,6 +52014,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: -6545764530478915430, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -50806,6 +52065,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
       propertyPath: m_Name
       value: Flowers (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 425286110574608038, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961056305463712465, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cca983b037ca1f64a8a1fb9d9eb49bbb, type: 3}
@@ -51327,6 +52594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -51457,6 +52728,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -51722,6 +52997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -51862,8 +53141,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.000001, y: 4.089268, z: 2.5068252}
-  m_Center: {x: -0.005837561, y: 2.0619395, z: 0.21266066}
+  m_Size: {x: 6.2471046, y: 4.089268, z: 2.5068252}
+  m_Center: {x: -2.1294074, y: 2.0619395, z: 0.21266069}
 --- !u!4 &1585908238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4319980111772158, guid: 162afb80391ab99488833ef7d4b18b99, type: 3}
@@ -52071,6 +53350,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
+--- !u!1 &1593880020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127466, guid: 164922da0c45e13499cbb9c0d181acf4, type: 3}
+  m_PrefabInstance: {fileID: 1045017927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1593880024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593880020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1453948, y: 1.7388592, z: 0.847582}
+  m_Center: {x: 0.5314225, y: 0.3705815, z: 0.12921974}
 --- !u!1001 &1598197559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52288,6 +53585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -52353,6 +53654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -52417,6 +53722,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -53221,6 +54530,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2349476, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6450158, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -53238,6 +54551,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4481777221271996, guid: 9207d796a4eef5c4fb42153a24ebf588, type: 3}
   m_PrefabInstance: {fileID: 1428950065}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1626892965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194808, guid: 4af2e69a3f0348b44a982423be88c83d, type: 3}
+  m_PrefabInstance: {fileID: 1095695895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1626892969
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626892965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8030202, y: 1.7508843, z: 0.7691319}
+  m_Center: {x: -0.60849583, y: 0.620855, z: 0.0034741461}
 --- !u!1001 &1627145747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53430,6 +54761,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -54427,8 +55762,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8500004, y: 2.5500004, z: 2.2800012}
-  m_Center: {x: 0.004074201, y: 1.2750169, z: -0.00583452}
+  m_Size: {x: 0.8854915, y: 2.5500004, z: 3.018862}
+  m_Center: {x: -0.013671339, y: 1.2750169, z: -0.375265}
 --- !u!1001 &1679135067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54743,6 +56078,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Size.z
+      value: 0.9574778
+      objectReference: {fileID: 0}
+    - target: {fileID: 5262733828284512705, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
+      propertyPath: m_Center.z
+      value: -0.12685573
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
 --- !u!1001 &1690600196
@@ -54953,6 +56296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Palett (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 731801658567534323, guid: 94e99d8cf11897f4587b0567695c949d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94e99d8cf11897f4587b0567695c949d, type: 3}
 --- !u!4 &1693093879 stripped
@@ -55128,6 +56475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -55182,6 +56533,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+--- !u!1 &1701759086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 192948, guid: 393666a36512b694893fb4b95c67c386, type: 3}
+  m_PrefabInstance: {fileID: 173477332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1701759090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701759086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.340477, y: 2.1820369, z: 0.757928}
+  m_Center: {x: -0.4395542, y: 0.9085183, z: -0.16675514}
 --- !u!1001 &1702563358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55510,6 +56879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -55631,6 +57004,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -55990,8 +57367,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.004073725, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 1.0450321, y: 2.5500004, z: 3.1039565}
+  m_Center: {x: 0.054098442, y: 1.2750169, z: -0.4178121}
 --- !u!1 &1728745683
 GameObject:
   m_ObjectHideFlags: 0
@@ -56524,6 +57901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -56756,6 +58137,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -57395,6 +58780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -57790,6 +59179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 93
@@ -57971,6 +59364,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4358027654480454338, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -58065,6 +59462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -58129,6 +59530,10 @@ PrefabInstance:
     - target: {fileID: 1799145172504711529, guid: 18af26af61ee8234caa44dc89f89d5cf, type: 3}
       propertyPath: m_Name
       value: Mushroom 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644307588585385336, guid: 18af26af61ee8234caa44dc89f89d5cf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4262527595393066397, guid: 18af26af61ee8234caa44dc89f89d5cf, type: 3}
       propertyPath: m_RootOrder
@@ -59102,6 +60507,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushrooms (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 626598550611399491, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376781743406077681, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845683846494352213, guid: c43f8078a174987439a67ccaab3be883, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c43f8078a174987439a67ccaab3be883, type: 3}
 --- !u!4 &1822753934 stripped
@@ -59722,6 +61139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_01_snaps001 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1117530218148268, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -59781,6 +61202,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4381973011225120, guid: 238ac8785f3f5b947941aa4fd6e0ce86, type: 3}
   m_PrefabInstance: {fileID: 1835530799}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1835703822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 162194, guid: 208ca54455d8ac34d8e8c32f367a245d, type: 3}
+  m_PrefabInstance: {fileID: 804761325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1835703826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835703822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.58819723, y: 1.524055, z: 0.76913196}
+  m_Center: {x: -0.0010892749, y: 0.5074403, z: 0.0034722984}
 --- !u!1001 &1838658042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59791,6 +61230,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -60132,6 +61575,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -60777,7 +62224,6 @@ Transform:
   - {fileID: 1401631707}
   - {fileID: 1713471116}
   - {fileID: 2102053079}
-  - {fileID: 609152761}
   - {fileID: 626214830}
   - {fileID: 521722156}
   - {fileID: 2099347020}
@@ -61074,6 +62520,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -61625,6 +63075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -61940,6 +63394,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -62693,8 +64151,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8500004, y: 2.5500004, z: 2.2800012}
-  m_Center: {x: 0.004074201, y: 1.2750169, z: -0.00583452}
+  m_Size: {x: 0.9151429, y: 2.5500004, z: 10.628057}
+  m_Center: {x: 0.036645472, y: 1.2750169, z: 3.6841016}
 --- !u!1001 &1911438727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62705,6 +64163,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -62916,6 +64378,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -64002,6 +65468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -64072,8 +65542,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.0040746517, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 1.0003464, y: 2.5500004, z: 3.2843354}
+  m_Center: {x: -0.01884666, y: 1.2750169, z: -0.50800157}
 --- !u!1001 &1953701875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65018,8 +66488,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.004073725, y: 1.2750169, z: -0.005832614}
+  m_Size: {x: 0.8739181, y: 2.5500004, z: 7.8553495}
+  m_Center: {x: -0.007885039, y: 1.2750169, z: -2.0968604}
 --- !u!1001 &1996467266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65301,6 +66771,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2a01e0ae5f611a4da3b95e3fc0a420b, type: 3}
+--- !u!1 &2002414109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 162194, guid: 208ca54455d8ac34d8e8c32f367a245d, type: 3}
+  m_PrefabInstance: {fileID: 413230380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2002414113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002414109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5881971, y: 1.5852375, z: 0.7691318}
+  m_Center: {x: -0.0010842681, y: 0.5380316, z: 0.003474176}
 --- !u!1001 &2004301801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65582,6 +67070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042488049}
     m_Modifications:
+    - target: {fileID: 4358027654480454338, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7115982526703405171, guid: 15f2f61c86005324ab3630e8b1ba2747, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -66008,6 +67500,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4926591831143164, guid: dad5ac76e863a834aa3d74b266e53f15, type: 3}
   m_PrefabInstance: {fileID: 2017003365}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2018552247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 162194, guid: 208ca54455d8ac34d8e8c32f367a245d, type: 3}
+  m_PrefabInstance: {fileID: 1845519980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2018552251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018552247}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.58819723, y: 1.7701485, z: 0.76913196}
+  m_Center: {x: -0.0010892749, y: 0.6304871, z: 0.0034742057}
 --- !u!1001 &2018611187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66235,8 +67745,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.004074202, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 0.9961287, y: 2.5500004, z: 10.342996}
+  m_Center: {x: -0.06898987, y: 1.2750169, z: -3.7264023}
 --- !u!4 &2023612943 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
@@ -66907,6 +68417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -67044,6 +68558,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 598911737247544163, guid: ab45847888048b84a94d230f24f99991, type: 3}
       propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 598911737247544163, guid: ab45847888048b84a94d230f24f99991, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730479943844168481, guid: ab45847888048b84a94d230f24f99991, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3489784861606110685, guid: ab45847888048b84a94d230f24f99991, type: 3}
@@ -67223,8 +68745,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8500004, y: 2.5500004, z: 2.2800012}
-  m_Center: {x: 0.004074201, y: 1.2750169, z: -0.00583452}
+  m_Size: {x: 0.98325264, y: 2.5500004, z: 2.8079407}
+  m_Center: {x: -0.062551916, y: 1.2750169, z: 0.2581352}
 --- !u!1 &2057121801 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 152222, guid: 34b8a5bfe71cc1844b2d95a6853d2630, type: 3}
@@ -67241,8 +68763,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.0040746788, y: 1.2750169, z: -0.005832614}
+  m_Size: {x: 0.9588595, y: 2.5500004, z: 5.1194324}
+  m_Center: {x: 0.058504194, y: 1.2750169, z: 1.4138832}
 --- !u!1 &2060468840 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1326364778710077615, guid: 7ece6646ef2475b44959032f5d55a8f6, type: 3}
@@ -67832,8 +69354,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.2800016}
-  m_Center: {x: 0.004074202, y: 1.2750169, z: -0.0058345213}
+  m_Size: {x: 0.85000056, y: 2.5500004, z: 2.8016982}
+  m_Center: {x: 0.004074216, y: 1.2750169, z: -0.26668298}
 --- !u!1001 &2085319939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67984,6 +69506,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
@@ -68153,7 +69679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442080, guid: 006f68bc96878b04e9657bc5fcecb726, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -70.379974
+      value: -70.461876
       objectReference: {fileID: 0}
     - target: {fileID: 442080, guid: 006f68bc96878b04e9657bc5fcecb726, type: 3}
       propertyPath: m_LocalRotation.w
@@ -68927,8 +70453,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8500004, y: 2.5500004, z: 2.2800012}
-  m_Center: {x: 0.004074201, y: 1.2750169, z: -0.00583452}
+  m_Size: {x: 1.0043801, y: 2.5500004, z: 10.9321375}
+  m_Center: {x: 0.08126408, y: 1.2750169, z: 3.8589082}
 --- !u!1 &2121767399 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 142018, guid: d537224908c5f444f86c9e57e0c7234c, type: 3}
@@ -69245,6 +70771,10 @@ PrefabInstance:
     - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_Name
       value: Neo_Floor_02_snaps001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4561544271246036, guid: 9b1b38ad56a221f4bb6ad963a1996883, type: 3}
       propertyPath: m_RootOrder
