@@ -99,6 +99,11 @@ public class playerControllerNew : MonoBehaviour
         {
             hitGround = true;
         }
+        else
+        {
+            animations.Walk();
+            isWalking = 0;
+        }
     }
 
     private void OnDisable()
