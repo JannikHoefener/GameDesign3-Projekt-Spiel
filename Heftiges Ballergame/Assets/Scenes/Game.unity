@@ -6656,10 +6656,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 227769264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 799476936af8a8f469768ae550b7ce14, type: 3}
+  m_Script: {fileID: 11500000, guid: 18bf9b17f2f983146ba1d0148261f454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 1683467324}
+  character: {fileID: 227769264}
   animations: {fileID: 227769266}
   moveSpeed: 5
   rotationSpeed: 20
@@ -6851,7 +6851,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f005545755f3e6d44825dae99eedf78d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewDegrees: 0
 --- !u!1001 &229939677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56019,11 +56018,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e4d0f164b07d6045919c269526fcd64, type: 3}
---- !u!1 &1683467324 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100090, guid: b2a01e0ae5f611a4da3b95e3fc0a420b, type: 3}
-  m_PrefabInstance: {fileID: 2002171262}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1684862116
 PrefabInstance:
   m_ObjectHideFlags: 0
