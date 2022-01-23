@@ -44,6 +44,9 @@ public class gameui : MonoBehaviour
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
             }
         } 
+
+        updateHands();
+        updateScore();
     }
 
     void setScore(int points)
@@ -59,6 +62,12 @@ public class gameui : MonoBehaviour
         // Add given points to current score and update the text
         score += points;
         ScoreText.text = score.ToString();
+    }
+
+    // update score
+    void updateScore()
+    {
+        ScoreText.text = GameStatistics.Instance.Pakete + " / " + GameStatistics.Instance.Goal;
     }
 
     void setTime(float displayTime)

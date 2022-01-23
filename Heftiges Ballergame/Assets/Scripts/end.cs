@@ -10,6 +10,7 @@ public class end : MonoBehaviour
     public GameObject EnemyEnd;
     public GameObject WinEnd;
     public Text ScoreText;
+    public Text ScoreDetail;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,8 @@ public class end : MonoBehaviour
         if (GameStatistics.Instance.inHand) { score += 100; };          // Each Paket in Hand  +100 Points
 
         DisplayScore(score);
+
+        DisplayDetail(((int)(GameStatistics.Instance.TimeRemaining) * 1), (GameStatistics.Instance.Pakete * 500));
 
         // Decide which screen has to be shown
         var end = GameStatistics.Instance.EndReason;
@@ -71,6 +74,11 @@ public class end : MonoBehaviour
     public void DisplayScore(int score)
     {
         Debug.Log("Score " + score);
-        ScoreText.text = score.ToString();
+        ScoreText.text = "Score " + score.ToString();
+    }
+
+    public void DisplayDetail(int pointsTime, int pointsPackets)
+    {
+        ScoreDetail.text = string.Format("Points for Time Left: {0:0000} \nPoints for Packets collected: {1:0000} \n", pointsTime, pointsPackets);
     }
 }
