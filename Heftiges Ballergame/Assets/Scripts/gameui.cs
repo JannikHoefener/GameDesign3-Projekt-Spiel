@@ -9,6 +9,7 @@ public class gameui : MonoBehaviour
     public int score = 0;
     public Text TimeText;
     public float timeRemaining = 10;
+    public Text HandsText;
     
     public bool timerIsRunning = true;
     //public int currentTime = 0; // contains current time left
@@ -19,6 +20,7 @@ public class gameui : MonoBehaviour
         // call setScore to set the displayed score to 0
         setScore(0); 
         timerIsRunning = true;
+        updateHands();
     }
 
     // Update is called once per frame
@@ -67,5 +69,17 @@ public class gameui : MonoBehaviour
         float seconds = Mathf.FloorToInt(displayTime % 60);
         // use string format for fancy output
         TimeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    void updateHands()
+    {
+        if (GameStatistics.Instance.inHand)
+        {
+            HandsText.text = "Hands full";
+        }
+        else 
+        {
+            HandsText.text = "Hands empty";
+        }
     }
 }

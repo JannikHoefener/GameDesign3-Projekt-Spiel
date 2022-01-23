@@ -16,6 +16,7 @@ public class GameStatistics
     public float TimeRemaining {get; set; }
     public int Score {get; set; }
     public int Pakete {get; set; } // how much pakete secured
+    public int Goal {get; set; } // how much pakete available
     public bool inHand {get; set; } // how much pakete in hand
     public int EndReason {get; set; } // why the game ended
 }
