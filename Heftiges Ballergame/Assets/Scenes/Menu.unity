@@ -1090,7 +1090,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -32}
+  m_AnchoredPosition: {x: 0, y: -44}
   m_SizeDelta: {x: 350, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &889175717
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.013616921, b: 0.89483684, a: 1}
+  m_Color: {r: 0.9607843, g: 0.42708138, b: 0.011764688, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1126,8 +1126,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "Soeren Helms, 2359614\nJannik Hoefener, 2574970\nMaurice Peplinski, 2587916\nLuis
-    Strotk\xF6tter, 2571685\nLukas Pohler, 2577140"
+  m_Text: "S\xF6ren Helms\nJannik Hoefener\nMaurice Peplinski\nLukas Pohler\nLuis
+    Strotk\xF6tter"
 --- !u!222 &889175718
 CanvasRenderer:
   m_ObjectHideFlags: 0
