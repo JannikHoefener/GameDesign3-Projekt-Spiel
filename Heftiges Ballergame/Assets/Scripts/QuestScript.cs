@@ -10,6 +10,7 @@ public class QuestScript : MonoBehaviour
     void Start()
     {
         GameStatistics.Instance.Goal = goal;
+        GameStatistics.Instance.inHand = false;
     }
 
     // Update is called once per frame
@@ -29,7 +30,7 @@ public class QuestScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Collectable"))
         {
-            if (!GameStatistics.Instance.inHand)
+            if (!GameStatistics.Instance.inHand) // when Hands empty do:
             {
                 Debug.Log("Quest: Picked GPU.");
                 GameStatistics.Instance.inHand = true;
@@ -39,9 +40,13 @@ public class QuestScript : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Dropzone"))
         {
-            Debug.Log("Quest: Dropped GPU.");
-            GameStatistics.Instance.inHand = false;
-            GameStatistics.Instance.Pakete += 1;
+            if (GameStatistics.Instance.inHand) // when Hands full do:
+            {
+                Debug.Log("Quest: Dropped GPU.");
+                GameStatistics.Instance.inHand = false;
+                GameStatistics.Instance.Pakete += 1;
+            }
+            else { Debug.Log("Quest: You have nothing in Hands to drop here."); }
         }
     }
 }
