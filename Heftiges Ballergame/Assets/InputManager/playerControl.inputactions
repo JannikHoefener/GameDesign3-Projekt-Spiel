@@ -1,5 +1,5 @@
 {
-    "name": "Heftiges Ballergame",
+    "name": "playerControl",
     "maps": [
         {
             "name": "Player",
@@ -33,6 +33,14 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "0cb2b19b-b44a-4cab-977c-7fb8c8e329e3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Escape",
+                    "type": "Button",
+                    "id": "bdf75c57-2480-4cd8-b094-5ae84a101f06",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -267,6 +275,39 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aeded648-4586-4979-909a-ab3ade62f558",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4abd2a2d-afd4-4688-be5d-535ff8281be0",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Escape",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fdc7732f-b66c-4fc4-ba4e-a46c4d17cbc0",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Escape",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

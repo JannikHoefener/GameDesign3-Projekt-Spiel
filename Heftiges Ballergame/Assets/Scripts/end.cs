@@ -37,6 +37,10 @@ public class end : MonoBehaviour
                 TimeRanOutShow();   // Player ran out of time
                 Debug.Log("Endscreen: Choosed Time Ran Out Screen.");
                 break;
+            case 3:
+                PlayerGaveUpShow();
+                Debug.Log("Endscreen: Choosed Player Gave Up Screen.");
+                break;
             default:
                 EnemyEndShow();     // Player was spotted
                 Debug.Log("Endscreen: Choosed Enemy Screen.");
@@ -66,6 +70,16 @@ public class end : MonoBehaviour
         TimeRanOut.SetActive(false);
         EnemyEnd.SetActive(false);
         WinEnd.SetActive(true);
+    }
+
+    public void PlayerGaveUpShow()
+    {
+        TimeRanOut.SetActive(false);
+        EnemyEnd.SetActive(false);
+        WinEnd.SetActive(false);
+        // edit this function to add an Score Screen for players who gave up
+        Debug.Log("Forwarding to Main Menu");
+        MainMenuShow();
     }
 
     public void MainMenuShow()

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class gameui : MonoBehaviour
 {
@@ -44,6 +45,15 @@ public class gameui : MonoBehaviour
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
             }
         } 
+
+        // Stop the run with escape key
+        /*
+        if (Keyboard.current.escape.wasPressedThisFrame)
+        {
+            Debug.Log("Escape Key Pressed");
+            GameStatistics.Instance.EndReason = 3;              // Tell the end screen the reason
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
+        } */
 
         updateHands();
         updateScore();

@@ -49,6 +49,14 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Escape"",
+                    ""type"": ""Button"",
+                    ""id"": ""bdf75c57-2480-4cd8-b094-5ae84a101f06"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -280,6 +288,39 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""aeded648-4586-4979-909a-ab3ade62f558"",
+                    ""path"": ""<XInputController>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4abd2a2d-afd4-4688-be5d-535ff8281be0"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Escape"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fdc7732f-b66c-4fc4-ba4e-a46c4d17cbc0"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Escape"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -861,6 +902,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Escape = m_Player.FindAction("Escape", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -926,6 +968,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Escape;
     public struct PlayerActions
     {
         private @PlayerControl m_Wrapper;
@@ -934,6 +977,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @Escape => m_Wrapper.m_Player_Escape;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -955,6 +999,9 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                 @Jump.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
                 @Jump.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
                 @Jump.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
+                @Escape.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEscape;
+                @Escape.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEscape;
+                @Escape.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnEscape;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -971,6 +1018,9 @@ public class @PlayerControl : IInputActionCollection, IDisposable
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @Escape.started += instance.OnEscape;
+                @Escape.performed += instance.OnEscape;
+                @Escape.canceled += instance.OnEscape;
             }
         }
     }
@@ -1131,6 +1181,7 @@ public class @PlayerControl : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnEscape(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
