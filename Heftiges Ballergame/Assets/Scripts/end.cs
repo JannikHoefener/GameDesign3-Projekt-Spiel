@@ -77,7 +77,7 @@ public class end : MonoBehaviour
         TimeRanOut.SetActive(false);
         EnemyEnd.SetActive(false);
         WinEnd.SetActive(false);
-        // edit this function to add an Score Screen for players who gave up
+        //TODO edit this function to add an Score Screen for players who gave up
         Debug.Log("Forwarding to Main Menu");
         MainMenuShow();
     }
@@ -85,7 +85,7 @@ public class end : MonoBehaviour
     public void MainMenuShow()
     {
         Debug.Log("Called Main Menu");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu"); //TODO make async for loading screen
     }
 
     public void DisplayScore(int score)

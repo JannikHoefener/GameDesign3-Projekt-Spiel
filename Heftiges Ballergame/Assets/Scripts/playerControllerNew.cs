@@ -12,10 +12,15 @@ public class playerControllerNew : MonoBehaviour
     public GameObject character;
     public Actions animations;
 
+    //GameStatistic reference
+    public GameStatistics gameStatistics;
+
     //Movement variables
     private PlayerInput playerInput;
     private InputAction movement;
     private InputAction jumpAction;
+    private InputAction escape;
+
     //Movement directions
     private Vector2 moveDirection;
     private Vector3 targetDirection;
@@ -26,7 +31,7 @@ public class playerControllerNew : MonoBehaviour
     public int jumpForce;
     private int isWalking;
 
-    private bool hitGround; //Limit f�rs Jumpen
+    private bool hitGround; //Limit fuers Jumpen
 
     private void Awake()
     {
@@ -35,23 +40,29 @@ public class playerControllerNew : MonoBehaviour
 
         movement = playerInput.actions["Move"];
         jumpAction = playerInput.actions["Jump"];
-
+        escape = playerInput.actions["Escape"];
         hitGround = true;
     }
 
     private void OnEnable()
     {
-
         movement.performed += ctx1 => OnMove(ctx1) ;
         movement.canceled += ctx1 => OnStopMove(ctx1);
-        movement.Enable();
-        
+        movement.Enable();   
 
         jumpAction.performed += ctx2 => DoJump(ctx2);
         jumpAction.Enable();
+
+        escape.performed += ctx3 => EndGame(ctx3);
+        escape.Enable();
     }
 
-    
+    public void EndGame(InputAction.CallbackContext ctx)
+    {
+        Debug.Log("Player pressed esc/ start; Game is Ending : playerControllerNew EndGame()");
+        GameStatistics.Instance.EndReason = 3;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
+    }
 
     public void OnMove(InputAction.CallbackContext ctx)
     {
@@ -110,6 +121,7 @@ public class playerControllerNew : MonoBehaviour
     {
         movement.Disable();
         jumpAction.Disable();
+        escape.Disable();
     }
 
     private void Update()
