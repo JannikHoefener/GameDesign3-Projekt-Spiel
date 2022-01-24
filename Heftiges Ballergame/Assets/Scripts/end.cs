@@ -70,6 +70,7 @@ public class end : MonoBehaviour
 
     public void MainMenuShow()
     {
+        Debug.Log("Called Main Menu");
         UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
     }
 

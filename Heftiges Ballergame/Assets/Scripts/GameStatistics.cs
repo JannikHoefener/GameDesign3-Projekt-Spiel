@@ -13,6 +13,7 @@ public class GameStatistics
         }
     }
     
+    public string GameVersion {get; set; } // which version is this game
     public float TimeRemaining {get; set; }
     public int Score {get; set; }
     public int Pakete {get; set; } // how much pakete secured
