@@ -29,10 +29,22 @@ public class spherecast : MonoBehaviour
         {
             current = hit.transform.gameObject;
             currentDistance = hit.distance;
+            if(current.CompareTag("Player"))
+            {
+                GameStatistics.Instance.EndReason = 2;
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
+            }
         }
         else
         {
+            currentDistance = maxDistance;
             current = null;
         }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Debug.DrawLine(origin, origin + direction * currentDistance);
+        Gizmos.DrawWireSphere(origin + direction * currentDistance, radius);
     }
 }
