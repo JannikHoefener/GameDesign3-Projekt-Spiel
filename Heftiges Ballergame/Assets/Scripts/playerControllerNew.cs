@@ -5,19 +5,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class playerControllerNew : MonoBehaviour
-{
-    
+{    
     //Character Object references
     private Rigidbody playerRb;
     public GameObject character;
     public Actions animations;
     public Animator animator;
-
-    //GameStatistic reference
-    public GameStatistics gameStatistics;
-
-    //GameStatistic reference
-    public GameStatistics gameStatistics;
 
     //Movement variables
     private PlayerInput playerInput;
