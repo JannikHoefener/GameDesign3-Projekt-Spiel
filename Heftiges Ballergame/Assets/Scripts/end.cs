@@ -99,7 +99,7 @@ public class end : MonoBehaviour
     public void MainMenuShow()
     {
         Debug.Log("Called Main Menu");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu"); //TODO make async for loading screen
+        UnityEngine.SceneManagement.SceneManager.LoadScene("StartScreen"); //TODO make async for loading screen
     }
 
     public void DisplayScore(int score)
