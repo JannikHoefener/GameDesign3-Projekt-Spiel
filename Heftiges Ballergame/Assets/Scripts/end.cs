@@ -38,8 +38,12 @@ public class end : MonoBehaviour
                 Debug.Log("Endscreen: Choosed Time Ran Out Screen.");
                 break;
             case 3:
-                PlayerGaveUpShow();
+                PlayerGaveUpShow(); // Player gave up
                 Debug.Log("Endscreen: Choosed Player Gave Up Screen.");
+                break;
+            case 4:
+                PlayerIgnoredRulesShow(); // Player ignored rules
+                Debug.Log("Endscreen: Choosed Player Ignored Rules Screen");
                 break;
             default:
                 EnemyEndShow();     // Player was spotted
@@ -78,6 +82,16 @@ public class end : MonoBehaviour
         EnemyEnd.SetActive(false);
         WinEnd.SetActive(false);
         //TODO edit this function to add an Score Screen for players who gave up
+        Debug.Log("Forwarding to Main Menu");
+        MainMenuShow();
+    }
+
+    public void PlayerIgnoredRulesShow()
+    {
+        TimeRanOut.SetActive(false);
+        EnemyEnd.SetActive(false);
+        WinEnd.SetActive(false);
+        // TODO edit this function to add an Score Screen for players who ignored the rules
         Debug.Log("Forwarding to Main Menu");
         MainMenuShow();
     }

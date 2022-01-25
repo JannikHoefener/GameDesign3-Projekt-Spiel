@@ -130,6 +130,16 @@ public class playerControllerNew : MonoBehaviour
         escape.Disable();
     }
 
+    private void OnLavaCollisionDeath(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Lava"))
+        {
+            Debug.Log("Player ignores the rules");
+            GameStatistics.Instance.EndReason = 4;
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
+        }
+    }
+
     private void Update()
     {
         //String test = controls.Player.Move.ToString();

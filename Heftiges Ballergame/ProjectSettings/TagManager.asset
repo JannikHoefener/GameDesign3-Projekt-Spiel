@@ -9,6 +9,7 @@ TagManager:
   - Collectable
   - Dropzone
   - GuardFlashlight
+  - Lava
   layers:
   - Default
   - TransparentFX
