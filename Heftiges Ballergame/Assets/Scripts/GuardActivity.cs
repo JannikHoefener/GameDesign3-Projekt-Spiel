@@ -83,7 +83,7 @@ public class GuardActivity : MonoBehaviour
             var speed = _random.Next(minSpeed,maxSpeed);
             var sleep = _random.Next(minSleep,maxSleep);
             actions.Add(new RotateAction(rotation,speed));
-            Debug.Log($"Rotation {rotation} Speed {speed}");
+            // Debug.Log($"Rotation {rotation} Speed {speed}");
             if (_random.Next(1,100) < sleepPercentage) {
                 // should only add in sleepPercentage % cases. 
                 actions.Add(new SleepAction(sleep));
@@ -114,7 +114,7 @@ public class GuardActivity : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Debug: Collision detected");
+        // Debug.Log("Guard: Collision detected");
 
         if (other.gameObject.CompareTag("Player"))
         {
