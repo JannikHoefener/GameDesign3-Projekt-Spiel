@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class startscreen : MonoBehaviour
 {
     public GameObject Credits;
+    public TextMeshProUGUI VersionText;
 
     bool ShowCredits = false;
 
@@ -19,6 +21,7 @@ public class startscreen : MonoBehaviour
         GameStatistics.Instance.GameVersion = Application.version;
         Debug.Log("Game Version: " + Application.version);
         // VersionText.text = VersionHint + Application.version;
+        VersionText.text = Application.version;
     }
 
     public void StartGame()
@@ -32,18 +35,23 @@ public class startscreen : MonoBehaviour
         {
             Credits.SetActive(false);
             ShowCredits = false;
-            Debug.Log($"Toggled Credits, new Value {ShowCredits}");
+            // Debug.Log($"Toggled Credits, new Value {ShowCredits}");
         }
         else
         {
             Credits.SetActive(true);
             ShowCredits = true;
-            Debug.Log($"Toggled Credits, new Value {ShowCredits}");
+            // Debug.Log($"Toggled Credits, new Value {ShowCredits}");
         }
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void OpenItchURL()
+    {
+        Application.OpenURL("https://soerenh.itch.io/heftigesballergame");
     }
 }
