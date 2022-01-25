@@ -11,6 +11,10 @@ public class playerControllerNew : MonoBehaviour
     private Rigidbody playerRb;
     public GameObject character;
     public Actions animations;
+    public Animator animator;
+
+    //GameStatistic reference
+    public GameStatistics gameStatistics;
 
     //GameStatistic reference
     public GameStatistics gameStatistics;
@@ -71,12 +75,16 @@ public class playerControllerNew : MonoBehaviour
         isWalking = 1;
 
         Debug.Log(targetDirection);
+        Debug.Log("OnMove called");
     }
     private void OnStopMove(InputAction.CallbackContext ctx)
     {
+        Debug.Log("OnStopMove called");
         moveDirection = ctx.ReadValue<Vector2>();
-        animations.Stay();
         isWalking = 0;
+        animations.Stay();
+        
+        
     }
 
     public void DoJump(InputAction.CallbackContext ctx)
@@ -84,8 +92,9 @@ public class playerControllerNew : MonoBehaviour
         if (hitGround == true)
         {
             hitGround = false;
-            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             animations.Jump();
+            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            
         }
     }
 
@@ -109,6 +118,10 @@ public class playerControllerNew : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             hitGround = true;
+            if (isWalking == 1)
+            {
+                animations.Walk();
+            }
         }
         else
         {
