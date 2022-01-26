@@ -25,6 +25,8 @@ Steuerung
 
     Entgegen des Spieltitels kann man in dem Spiel nicht schießen, der Arbeitstitel wird noch angepasst.
 
+    Mit der Taste ESC bzw Escape und Start auf dem Xbox Gamepad kannst du deinen Run abbrechen.
+
 Weitere Hinweise
 
-    Für das Testen in der Beta liegen zusätzlich drei Grafikkarten auf dem Parkplatz herum. Diese leuchten Grün, haben die gleiche Funktion, sind aber fürs Testen. Versuch dich also gerne an der Security.
+    Für das Testen in der Beta liegen zusätzlich zwei Grafikkarten auf dem Parkplatz herum. Diese leuchten Grün, haben die gleiche Funktion, sind aber fürs Testen. Versuch dich also gerne an der Security.

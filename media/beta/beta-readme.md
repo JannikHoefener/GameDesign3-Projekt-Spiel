@@ -22,8 +22,10 @@ Klassische **W A S D** Steuerung. Zusätzlich funktionieren die Pfeiltasten oder
 
 Für das Aufsammeln oder Ablegen brauchst du keine Taste drücken, das passiert automatisch. Was du Sammeln sollst leuchtet zur Unterstützung blau.
 
+Mit der Taste ESC bzw Escape und Start auf dem Xbox Gamepad kannst du deinen Run abbrechen.
+
 >> Entgegen des Spieltitels kann man in dem Spiel nicht schießen, der Arbeitstitel wird noch angepasst.
 
 ## Weitere Hinweise
 
-Für das Testen in der Beta liegen zusätzlich drei Grafikkarten auf dem Parkplatz herum. Diese leuchten Grün, haben die gleiche Funktion, sind aber fürs Testen. Versuch dich also gerne an der Security.
+Für das Testen in der Beta liegen zusätzlich zwei Grafikkarten auf dem Parkplatz herum. Diese leuchten Grün, haben die gleiche Funktion, sind aber fürs Testen. Versuch dich also gerne an der Security.
