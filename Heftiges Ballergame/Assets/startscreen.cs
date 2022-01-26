@@ -52,6 +52,6 @@ public class startscreen : MonoBehaviour
 
     public void OpenItchURL()
     {
-        Application.OpenURL("https://soerenh.itch.io/heftigesballergame");
+        Application.OpenURL("https://soerenh.itch.io/get-out");
     }
 }
