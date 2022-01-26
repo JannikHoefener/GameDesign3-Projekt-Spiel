@@ -6,7 +6,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Game
+  m_Name: Tekkno
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 961b01293a77256468a80e2d5822381b
   m_Children: []
@@ -65,11 +65,14 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 3ca6792f677abe542bbf0097437fa241
     name: MusicVolume
+  - guid: 51a2eb70f1ab6e948925c6d7b71093d5
+    name: TekknoVolume
   m_AudioMixerGroupViews:
   - guids:
     - 9b5c298c9e8ddbc44801b03b25b658b7
     - 961b01293a77256468a80e2d5822381b
     - c2f895b94b40c044ab848f24d3d7b395
+    - a494fdcdd7c415e43944532af82ba6ae
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -85,6 +88,7 @@ AudioMixerGroupController:
   m_Children:
   - {fileID: 7610691238214812163}
   - {fileID: -8646036184917578422}
+  - {fileID: 5595355761058334010}
   m_Volume: 3ca6792f677abe542bbf0097437fa241
   m_Pitch: ead1922bf013b8944ab81715743538cc
   m_Send: 00000000000000000000000000000000
@@ -118,9 +122,46 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 5792931427905fd4ba8085c9e11c74f8
   m_FloatValues:
+    51a2eb70f1ab6e948925c6d7b71093d5: -22.003613
+    9a3925d2aea6a904fbb1bd2877e09e79: -26.404226
+    ca1ed6c62a80fe04c85443541d34ba31: -7.8940816
     cfe3bf69e7a212844aee82891500663e: -10.345207
+    3ca6792f677abe542bbf0097437fa241: -6.133707
     c8938c9f3912c57498660c9e08b559be: -9.833286
   m_TransitionOverrides: {}
+--- !u!244 &882333477126497928
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 9476c4663bedd224cae5e1e5b8b40593
+  m_EffectName: Attenuation
+  m_MixLevel: 7889919465edbf442b7a5b372c50fd84
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &5595355761058334010
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Natur
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: a494fdcdd7c415e43944532af82ba6ae
+  m_Children: []
+  m_Volume: ca1ed6c62a80fe04c85443541d34ba31
+  m_Pitch: 2a6100ed487898d4a9e48afb919d7f66
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 882333477126497928}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!243 &7610691238214812163
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
