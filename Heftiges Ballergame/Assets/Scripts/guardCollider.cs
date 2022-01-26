@@ -20,13 +20,11 @@ public class guardCollider : MonoBehaviour
     {
         Debug.Log("Guard: Hitbox Collision detected");
 
-        /*
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Guard: Spotted Player.");
             GameStatistics.Instance.EndReason = 2;
             UnityEngine.SceneManagement.SceneManager.LoadScene("Endscreen");
         }
-        */
     }
 }
