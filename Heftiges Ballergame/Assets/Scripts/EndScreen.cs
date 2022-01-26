@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using System;
+using System.Text;
 
 public class EndScreen : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class EndScreen : MonoBehaviour
 
     public TextMeshProUGUI ScoreText;
     public TextMeshProUGUI ScoreDetail;
+    public float maxTime = 300.0f;
 
 
     // Start is called before the first frame update
@@ -27,7 +30,7 @@ public class EndScreen : MonoBehaviour
         if (GameStatistics.Instance.inHand) { score += 100; };
 
         DisplayScore(score);
-        // DisplayDetails();
+        DisplayDetail();
 
         var reason = GameStatistics.Instance.EndReason;
         switch (reason)
@@ -66,7 +69,34 @@ public class EndScreen : MonoBehaviour
     public void DisplayScore(int score)
     {
         Debug.Log($"Score: {score}");
+        // if someone cheated or escaped, no score!
+        if (GameStatistics.Instance.EndReason == 3 || GameStatistics.Instance.EndReason == 4)
+        {
+            score = 0;
+        }
         ScoreText.text = "Score " + score.ToString();
+    }
+
+    public void DisplayDetail()
+    {
+        StringBuilder sb = new StringBuilder("", 200);
+        // calculate and add time
+        sb.Append("Time: \t\t");
+        var displayTime = maxTime - GameStatistics.Instance.TimeRemaining;
+        float minutes = Mathf.FloorToInt(displayTime / 60);
+        float seconds = Mathf.FloorToInt(displayTime % 60);
+        var time = string.Format("{0:00}:{1:00}", minutes, seconds);
+        sb.Append(time);
+        // go to new line
+        sb.Append("\n");
+        // calculate and add collected packets
+        sb.Append("Collected: \t");
+        var pack = GameStatistics.Instance.Pakete + " / " + GameStatistics.Instance.Goal;
+        sb.Append(pack);
+        // go to new line
+        sb.Append("\n");
+
+        ScoreDetail.text = sb.ToString();
     }
 
     private void WinningShow()
