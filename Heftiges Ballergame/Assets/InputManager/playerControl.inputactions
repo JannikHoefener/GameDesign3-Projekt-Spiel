@@ -269,28 +269,6 @@
                 },
                 {
                     "name": "",
-                    "id": "daf3c026-ddfa-4f01-b79e-ebd452e52f87",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "aeded648-4586-4979-909a-ab3ade62f558",
-                    "path": "<XInputController>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "4abd2a2d-afd4-4688-be5d-535ff8281be0",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
