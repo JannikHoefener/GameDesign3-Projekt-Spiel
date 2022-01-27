@@ -150,6 +150,12 @@ public class EndScreen : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene("StartScreen");
     }
 
+    public void RestartGame()
+    {
+        Debug.Log("Endscreen: Calling Game Restart");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
