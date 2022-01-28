@@ -28,13 +28,13 @@ get out! on [itch.io](https://soerenh.itch.io/get-out)
 ## Music
 
 * [Navajo Night von Audionautix](http://audionautix.com/)
-* *[Zenhiser LNTG-Part2]()*
+* *[Zenhiser LNTG-Part2](https://splice.com/)*
 
 ## Sound Effects
 
 * [irinairinafomicheva - start](https://pixabay.com/de/sound-effects/start-13691/)
 * [irinairinafomicheva - rclick](https://pixabay.com/de/sound-effects/rclick-13693/)
-* *[Grillenzirpen]()*
+* *[Grillenzirpen](https://splice.com/)*
 
 ## Graphics
 

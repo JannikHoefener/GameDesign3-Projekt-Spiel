@@ -13,3 +13,5 @@ Die veröffentlichten Versionen sind auf [itch.io](https://soerenh.itch.io/get-o
 see `media/`
 
 Font Colour: `#ff5757`
+
+Youtube Trailer [Link](https://youtu.be/jLCUXIO85Sc)
